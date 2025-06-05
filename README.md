@@ -10,12 +10,13 @@
 - `deleteDB.sql` : Efface toutes les tables créées initiallement.
 
 ## Ordre d'exécution RECOMMANDÉ
-*Si ce n'est pas la première utilisation, ne pas oublier d'exécuter `deleteDB.sql` afin de tout effacer la base de données avant de poursuivre avec la procédure*
+*Si ce n'est pas la première utilisation, ne pas oublier d'exécuter `deleteDB.sql` afin de s'assurer de repartir à neuf, avant de poursuivre avec la procédure*
 1. `createDB.sql`
 2. `addData.sql`
 3. Requêtes dans `requestScripts/` (manuellement ou via `test_all.sql`)
 4. `addMoreData.sql`
 5. Refaire le point 3. pour valider avec de nouvelles données
+6. `deleteDB.sql`
 
 
 ## Technologies Utilisées
@@ -27,7 +28,7 @@
 ## Outils de Développement
 - **Git** : Système de gestion de versions pour le suivi des modifications (recommandé pour le projet).
 - **Visual Studio Code** : Éditeur de code avec extensions SQL pour l'écriture et le débogage des scripts.
-- **MySQL Workbench** : Alternative à HeidiSQL pour la modélisation et la visualisation de la base de données.
+- **MySQL Workbench** : Infrastructure pour lancer un serveur local pour la base de données.
 
 ## Méthodologies
 - **Modèle Conceptuel de Données (MCD)** : Utilisé pour la conception initiale de la base, définissant les entités et leurs relations.
